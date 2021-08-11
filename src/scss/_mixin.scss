@@ -1,0 +1,43 @@
+@mixin background_section {
+    background-color: $black;
+    height: 100vh;
+    color: $white;
+}
+
+@mixin title_section {
+    padding-top: 150px;
+    text-align: center;
+    color: $purple;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@mixin subtitle_section {
+    text-align: center;
+    color: $purple;
+}
+
+@mixin para_section {
+    padding-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+@mixin hover {
+    background-color: $purple;
+    color: $black;
+    padding: 0.2rem;
+    border-radius: 10%;
+}
+
+@mixin simple_hover {
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    a:hover {
+        color: $purple;
+    }
+}
